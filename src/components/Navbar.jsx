@@ -72,7 +72,7 @@ export default function Navbar() {
             className="cursor-pointer"
           >
             <img 
-              src="/images/logo.png" 
+              src="./images/logo.png" 
               alt="Domaine Gardiés" 
               className={`w-auto object-contain mix-blend-multiply transition-all duration-500 ${
                 isScrolled ? "h-16 md:h-20" : "h-20 md:h-28 mt-2"

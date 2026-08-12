@@ -12,7 +12,7 @@ export default function History() {
         transition={{ duration: 2, ease: "easeOut" }}
         className="absolute top-[2%] md:top-[10%] right-[5%] md:right-auto md:left-[15%] w-[40vw] md:w-[28vw] z-0 pointer-events-none origin-center -rotate-12 opacity-40 md:opacity-100"
       >
-        <img src="/images/bonhomme.png" className="w-full h-auto object-contain mix-blend-darken" alt="Emblème Domaine"/>
+        <img src="./images/bonhomme.png" className="w-full h-auto object-contain mix-blend-darken" alt="Emblème Domaine"/>
       </motion.div>
 
       <div className="max-w-[100vw] md:max-w-[85vw] mx-auto relative z-10">

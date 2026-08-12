@@ -63,7 +63,7 @@ function App() {
           
           {/* Logo */}
           <div className="md:col-span-3 flex justify-center md:justify-start">
-            <img src="/images/logo.png" alt="Domaine Gardiés" className="h-20 md:h-28 w-auto object-contain mix-blend-multiply opacity-80" />
+            <img src="./images/logo.png" alt="Domaine Gardiés" className="h-20 md:h-28 w-auto object-contain mix-blend-multiply opacity-80" />
           </div>
 
           {/* Menu */}

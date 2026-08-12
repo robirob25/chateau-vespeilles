@@ -32,7 +32,7 @@ export default function Events() {
       {/* Arrière-plan "On s'en Fish" en filigrane (couvre tout l'écran) */}
       <div 
         className="absolute inset-0 z-0 pointer-events-none opacity-[0.07] mix-blend-multiply bg-center bg-cover bg-no-repeat"
-        style={{ backgroundImage: 'url("/images/fishes.png")' }}
+        style={{ backgroundImage: 'url("./images/fishes.png")' }}
       />
 
       <div className="max-w-[100vw] md:max-w-6xl mx-auto relative z-10">

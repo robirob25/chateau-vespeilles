@@ -70,7 +70,7 @@ export default function Hero({ isAgeVerified = true }) {
           className="w-[90%] md:w-[75%] lg:w-[60%] lg:ml-auto relative z-10 md:translate-x-[5%] lg:translate-x-[10%]"
         >
           <img 
-            src="/images/falaises_lavis.png" 
+            src="./images/falaises_lavis.png" 
             alt="Lavis" 
             className="w-full h-auto object-contain"
           />

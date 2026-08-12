@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const slides = [
   {
     id: 1,
-    image: "/images/gallery_new_2.jpg",
+    image: "./images/gallery_new_2.jpg",
     title: "L'Héritage",
     subtitle: "La Famille Gardiés",
     description: "Une histoire de transmission et de passion ancrée dans la terre des Corbières depuis des générations.",
@@ -13,42 +13,42 @@ const slides = [
   },
   {
     id: 2,
-    image: "/images/gallery_new_4.jpg",
+    image: "./images/gallery_new_4.jpg",
     title: "Les Origines",
     subtitle: "L'empreinte du temps",
     description: "Un terroir rocailleux, riche de fossiles et d'histoire, qui forge le caractère indomptable de nos vins."
   },
   {
     id: 3,
-    image: "/images/gallery_new_3.jpg",
+    image: "./images/gallery_new_3.jpg",
     title: "La Récolte",
     subtitle: "Le Geste",
     description: "La main de l'artisan qui cueille le fruit à sa parfaite maturité, dans le plus pur respect du vivant."
   },
   {
     id: 4,
-    image: "/images/gallery_new_1.jpg",
+    image: "./images/gallery_new_1.jpg",
     title: "L'Artisanat",
     subtitle: "Le Chai",
     description: "Le temps du silence et de la patience, où chaque barrique élève le vin vers sa plus juste expression."
   },
   {
     id: 5,
-    image: "/images/hero_vineyard.jpg",
+    image: "./images/hero_vineyard.jpg",
     title: "L'Immensité",
     subtitle: "Terroir de Vingrau",
     description: "Des falaises de calcaire blanc sculptées par les vents dominants. Le point zéro de notre cuvée."
   },
   {
     id: 6,
-    image: "/images/bw_old_vine.jpg",
+    image: "./images/bw_old_vine.jpg",
     title: "La Résilience",
     subtitle: "L'Âge de la Vigne",
     description: "Des décennies de lutte silencieuse face à l'aridité pour puiser l'essence même du schiste."
   },
   {
     id: 7,
-    image: "/images/bw_grapes.jpg",
+    image: "./images/bw_grapes.jpg",
     title: "La Concentration",
     subtitle: "Le Fruit Brut",
     description: "Une matière première d'une intensité rare, le fruit d'un terroir sans aucun compromis."
