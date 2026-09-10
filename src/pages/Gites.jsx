@@ -29,7 +29,7 @@ export default function Gites() {
         <div className="max-w-7xl mx-auto h-[50vh] md:h-[70vh] relative shadow-2xl overflow-hidden">
           <motion.img 
             style={{ y: heroY }}
-            src="/images/luxury_gite.jpg" 
+            src="./images/luxury_gite.jpg" 
             alt="Intérieur luxueux du gîte" 
             className="w-full h-[130%] object-cover absolute inset-0 -top-[15%]"
           />
@@ -104,7 +104,7 @@ export default function Gites() {
           <div className="w-full space-y-12">
              <div className="w-full relative shadow-lg bg-white p-4">
                 <img 
-                  src="/images/10_Domaine-viticole-salle-de-seminaire-gites-a-Salses-le-Chateau-11.png" 
+                  src="./images/10_Domaine-viticole-salle-de-seminaire-gites-a-Salses-le-Chateau-11.png" 
                   alt="Décoration du Gîte" 
                   className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-500"
                 />

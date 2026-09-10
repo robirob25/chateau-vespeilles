@@ -78,7 +78,7 @@ function Bottle3D() {
     >
       <div className="absolute inset-0 pointer-events-none rounded-full blur-2xl transition-opacity" style={glowStyle}></div>
       <div style={style} className="relative z-20 h-[400px] flex justify-center items-center drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)]">
-        <img src="/images/wine_gentleman.png" alt="Cuvée Le Gentleman" className="h-full object-contain pointer-events-none" style={{ mixBlendMode: 'multiply' }} />
+        <img src="./images/wine_gentleman.png" alt="Cuvée Le Gentleman" className="h-full object-contain pointer-events-none" style={{ mixBlendMode: 'multiply' }} />
         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 mix-blend-overlay hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
       </div>
     </div>
@@ -129,7 +129,7 @@ export default function Home() {
           className="absolute inset-0 will-change-transform"
           style={{ transform: `translateY(${scrollY * 0.2}px)` }} // Parallax scrolling slower than page
         >
-          <img src="/images/hero_canigou_blur.png" alt="Vignoble du Château Vespeille" className="w-full h-full object-cover animate-ken-burns origin-center" />
+          <img src="./images/hero_canigou_blur.png" alt="Vignoble du Château Vespeille" className="w-full h-full object-cover animate-ken-burns origin-center" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
         </div>
 
@@ -161,7 +161,7 @@ export default function Home() {
       >
         <div className="flex justify-center items-center mb-12 -mt-16 md:-mt-24 relative z-30">
           <WineStain className="w-[300px] md:w-[450px] absolute top-10 md:top-20 left-0 right-0 mx-auto z-0" staticShape />
-          <img src="/images/logo_vespeille.png" alt="Château Vespeille les Pins Logo" className="w-48 md:w-64 lg:w-[22rem] h-auto object-contain animate-[spin_20s_linear_infinite] origin-[48%_59%] relative z-10" />
+          <img src="./images/logo_vespeille.png" alt="Château Vespeille les Pins Logo" className="w-48 md:w-64 lg:w-[22rem] h-auto object-contain animate-[spin_20s_linear_infinite] origin-[48%_59%] relative z-10" />
         </div>
         <h2 className="text-sm font-sans uppercase tracking-[0.3em] font-bold text-gray-400 mb-8 relative z-10">
           Notre Histoire

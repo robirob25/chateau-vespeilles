@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
@@ -28,7 +28,7 @@ function App() {
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
             
             <div className="md:col-span-3 flex justify-center md:justify-start">
-              <img src="/images/logo_vespeille.png" alt="Chateau Vespeille" className="h-24 md:h-32 w-auto object-contain" />
+              <img src="./images/logo_vespeille.png" alt="Chateau Vespeille" className="h-24 md:h-32 w-auto object-contain" />
             </div>
 
             <div className="md:col-span-6 flex flex-wrap justify-center gap-6 text-[0.65rem] tracking-[0.3em] uppercase font-bold text-gray-600">

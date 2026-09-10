@@ -201,7 +201,7 @@ export default function Vins() {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-title text-gray-900 leading-tight mb-6">
           Les <span className="italic font-light text-vespeille_red">Cuvées</span>
         </h1>
-        <img src="/images/logo_vespeille.png" alt="Château Vespeille les Pins Logo" className="w-48 md:w-56 h-auto object-contain mt-4 animate-[spin_20s_linear_infinite] origin-[48%_59%]" />
+        <img src="./images/logo_vespeille.png" alt="Château Vespeille les Pins Logo" className="w-48 md:w-56 h-auto object-contain mt-4 animate-[spin_20s_linear_infinite] origin-[48%_59%]" />
       </div>
 
       <div ref={collectionRef} className="max-w-[1600px] mx-auto px-6 lg:px-12 mt-12">
