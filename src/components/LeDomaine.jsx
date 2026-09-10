@@ -36,7 +36,7 @@ export default function LeDomaine() {
           className="relative w-full aspect-[4/5] md:aspect-[3/4] order-1 md:order-2"
         >
           <img 
-            src="./images/Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_205.png" 
+            src="./images/15_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_205.png" 
             alt="Le Domaine" 
             className="w-full h-full object-cover rounded-3xl"
           />

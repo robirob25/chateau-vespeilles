@@ -30,7 +30,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="relative z-50 flex-shrink-0">
             <img 
-              src="/images/logo_vespeille.png" 
+              src="./images/logo_vespeille.png" 
               alt="Château Vespeille les Pins" 
               className={`transition-all duration-500 object-contain ${isScrolled ? 'h-10 md:h-12' : 'h-12 md:h-16'}`}
             />
