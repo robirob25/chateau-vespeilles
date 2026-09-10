@@ -112,7 +112,7 @@ export default function Gallery() {
         {/* Titre Haut */}
         <div>
           <h2 className="text-[2rem] md:text-[3rem] font-title text-white tracking-tighter">
-            Mémoire <span className="italic font-light text-[#E30613] block md:inline">des Corbières</span>
+            Mémoire <span className="italic font-light text-[#1A3636] block md:inline">des Corbières</span>
           </h2>
         </div>
 

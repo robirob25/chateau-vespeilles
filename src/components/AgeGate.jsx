@@ -37,7 +37,7 @@ export default function AgeGate({ onVerify }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#F6EFE2]/80 backdrop-blur-xl px-6"
+          className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#F9F6F0]/80 backdrop-blur-xl px-6"
         >
           <motion.div 
             initial={{ y: 20, opacity: 0 }}
@@ -45,7 +45,7 @@ export default function AgeGate({ onVerify }) {
             transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
             className="max-w-xl w-full text-center"
           >
-            <div className="text-[0.65rem] font-sans tracking-[0.4em] uppercase font-bold text-[#E30613] mb-8">
+            <div className="text-[0.65rem] font-sans tracking-[0.4em] uppercase font-bold text-[#1A3636] mb-8">
               Domaine Gardiés
             </div>
             
@@ -62,7 +62,7 @@ export default function AgeGate({ onVerify }) {
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                 <button 
                   onClick={handleConfirm}
-                  className="w-full md:w-auto px-10 py-4 rounded-full bg-[#1a1a1a] text-white hover:bg-[#E30613] transition-all duration-300 text-[0.65rem] font-sans tracking-[0.2em] uppercase font-bold"
+                  className="w-full md:w-auto px-10 py-4 rounded-full bg-[#1a1a1a] text-white hover:bg-[#1A3636] transition-all duration-300 text-[0.65rem] font-sans tracking-[0.2em] uppercase font-bold"
                 >
                   Oui, j'ai l'âge légal
                 </button>
@@ -77,7 +77,7 @@ export default function AgeGate({ onVerify }) {
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="text-[#E30613] font-sans text-sm tracking-widest uppercase font-bold p-6 border border-[#E30613]/20 bg-[#E30613]/5 rounded-3xl"
+                className="text-[#1A3636] font-sans text-sm tracking-widest uppercase font-bold p-6 border border-[#1A3636]/20 bg-[#1A3636]/5 rounded-3xl"
               >
                 L'accès à ce site est strictement réservé aux personnes majeures.
               </motion.div>

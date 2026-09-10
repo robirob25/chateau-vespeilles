@@ -41,10 +41,10 @@ export default {
           DEFAULT: "var(--card)",
           foreground: "var(--card-foreground)",
         },
-        bordeaux: {
-          DEFAULT: '#5A1828',
-          dark: '#3c0c17',
-          light: '#8B263F'
+        vespeille_red: {
+          DEFAULT: '#AF1C07',
+          dark: '#851505',
+          light: '#d62309'
         },
         anthracite: '#0a0a0a',
         ecru: '#F9F6F0',

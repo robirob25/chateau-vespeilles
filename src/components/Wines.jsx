@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const LocalWineStain = ({ className }) => (
   <div className={`pointer-events-none absolute mix-blend-multiply z-0 flex items-center justify-center ${className}`}>
     <div 
-      className="w-[80%] h-[80%] bg-[#E30613] blur-[40px]"
+      className="w-[80%] h-[80%] bg-[#1A3636] blur-[40px]"
       style={{ borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%' }}
     />
   </div>
@@ -19,7 +19,7 @@ const wines = [
     terroir: "Schistes noirs d'Espira & Argilo-calcaires de Vingrau",
     description: "Cuvée phare du domaine, un assemblage magistralement équilibré exprimant la finesse et la complexité de nos terroirs.",
     image: "./images/bottle_red.jpg",
-    accent: "#E30613",
+    accent: "#1A3636",
     alcool: "14%",
     appellation: "Côtes-du-Roussillon",
     viticulture: "Biologique",
@@ -33,7 +33,7 @@ const wines = [
     terroir: "Terroirs de Vingrau (Vieux Carignans centenaires)",
     description: "Une cuvée sérieuse et structurée, forgée à l'image des vertigineuses falaises calcaires qui surplombent nos vignes.",
     image: "./images/bottle_red.jpg",
-    accent: "#E30613",
+    accent: "#1A3636",
     alcool: "14%",
     appellation: "Côtes-du-Roussillon-Villages Tautavel",
     viticulture: "Biologique",
@@ -61,7 +61,7 @@ const wines = [
     terroir: "Sols de schistes et d'argiles d'Espira-de-l'Agly",
     description: "Une cuvée de grand caractère issue de vieilles vignes et de rendements limités, puissante, racée avec une concentration remarquable.",
     image: "./images/bottle_red.jpg",
-    accent: "#E30613",
+    accent: "#1A3636",
     alcool: "14.5%",
     appellation: "Côtes-du-Roussillon-Villages",
     viticulture: "Biologique",
@@ -75,7 +75,7 @@ const wines = [
     terroir: "Tautavel",
     description: "Issu de terroirs historiques, ce vin dévoile une profondeur et une trame tannique d'une grande noblesse.",
     image: "./images/bottle_red.jpg",
-    accent: "#E30613",
+    accent: "#1A3636",
     alcool: "14%",
     appellation: "Côtes-du-Roussillon-Villages Tautavel",
     viticulture: "Biologique",
@@ -103,7 +103,7 @@ const wines = [
     terroir: "Vingrau & Espira",
     description: "Un assemblage audacieux et aérien, une véritable quête de fraîcheur méditerranéenne.",
     image: "./images/bottle_red.jpg",
-    accent: "#E30613",
+    accent: "#1A3636",
     alcool: "13.5%",
     appellation: "Côtes-du-Roussillon",
     viticulture: "Biologique",
@@ -117,7 +117,7 @@ const wines = [
     terroir: "Sols profonds",
     description: "Une cuvée de pur plaisir. Un jus léger, gourmand et joyeusement gouleyant.",
     image: "./images/bottle_red.jpg",
-    accent: "#E30613",
+    accent: "#1A3636",
     alcool: "13%",
     appellation: "IGP Côtes Catalanes",
     viticulture: "Biologique",
@@ -141,7 +141,7 @@ export default function Wines() {
         <div className="mb-12 md:mb-24 text-center md:text-left">
           <h2 className="text-[2.5rem] md:text-[4rem] font-title leading-[1] text-[#1a1a1a] tracking-tight">
             La Collection<br/>
-            <span className="italic text-[#E30613] font-light">du Domaine</span>
+            <span className="italic text-[#1A3636] font-light">du Domaine</span>
           </h2>
           <p className="mt-4 md:mt-6 text-gray-600 font-serif text-sm md:text-base max-w-xl">
             Découvrez les fiches techniques détaillées de nos cuvées.<br className="hidden md:block" /> Sélectionnez un vin dans le menu ci-dessous pour l'afficher.
@@ -165,7 +165,7 @@ export default function Wines() {
                 onClick={() => setCurrentIndex(i)}
                 className={`snap-start whitespace-nowrap lg:whitespace-normal text-left font-title text-2xl transition-all duration-300 ${
                   i === currentIndex 
-                    ? 'text-[#E30613] italic lg:-ml-2 border-b-2 border-[#E30613] lg:border-b-0 pb-1 lg:pb-0' 
+                    ? 'text-[#1A3636] italic lg:-ml-2 border-b-2 border-[#1A3636] lg:border-b-0 pb-1 lg:pb-0' 
                     : 'text-gray-400 hover:text-gray-900 lg:hover:translate-x-2 pb-1 lg:pb-0'
                 }`}
               >

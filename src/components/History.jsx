@@ -27,7 +27,7 @@ export default function History() {
             className="md:col-span-4"
           >
             <h2 className="text-[2.5rem] md:text-[3.5rem] font-title leading-[1.1] md:leading-[1] text-gray-900 tracking-tight">
-              Depuis le <br className="hidden md:block"/><span className="italic text-[#E30613] md:block">XVIIIe Siècle</span>
+              Depuis le <br className="hidden md:block"/><span className="italic text-[#1A3636] md:block">XVIIIe Siècle</span>
             </h2>
           </motion.div>
 
@@ -40,7 +40,7 @@ export default function History() {
             className="md:col-span-7 md:col-start-6 space-y-8 md:space-y-12 backdrop-blur-sm bg-white/20 p-6 md:p-8 rounded-3xl"
           >
             <p className="text-lg md:text-2xl font-serif text-gray-800 leading-relaxed relative z-10">
-              <span className="text-4xl md:text-7xl float-left mr-4 md:mr-5 mt-1 md:mt-[-0.15em] font-title text-[#E30613]">L</span>
+              <span className="text-4xl md:text-7xl float-left mr-4 md:mr-5 mt-1 md:mt-[-0.15em] font-title text-[#1A3636]">L</span>
               'histoire du Domaine Gardiés plonge ses racines dans la seconde moitié du XVIIIème siècle. C'est à cette époque que la famille Castany s’installe au beau milieu des Corbières, au lieu-dit Mas Farine.
             </p>
 
@@ -50,14 +50,14 @@ export default function History() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-6 md:pt-8 border-t border-gray-300/50 relative z-10">
               <div>
-                <h4 className="text-[0.65rem] md:text-xs tracking-[0.2em] uppercase font-bold text-[#E30613] mb-3 md:mb-4">Deux Terroirs Majeurs</h4>
+                <h4 className="text-[0.65rem] md:text-xs tracking-[0.2em] uppercase font-bold text-[#1A3636] mb-3 md:mb-4">Deux Terroirs Majeurs</h4>
                 <p className="text-sm font-sans text-gray-600 leading-loose">
                   Le domaine s'étend aujourd'hui sur 35 hectares. Jean Gardiés, désormais accompagné de son fils Victor, sublime ces deux grands terroirs du Roussillon : Espira-de-L'Agly sur des sols de schistes noirs très friables, et Vingrau sur de vertigineux argilo-calcaires balayés par les vents de la Méditerranée.
                 </p>
               </div>
               
               <div>
-                <h4 className="text-[0.65rem] md:text-xs tracking-[0.2em] uppercase font-bold text-[#E30613] mb-3 md:mb-4">L'artisanat du Vivant</h4>
+                <h4 className="text-[0.65rem] md:text-xs tracking-[0.2em] uppercase font-bold text-[#1A3636] mb-3 md:mb-4">L'artisanat du Vivant</h4>
                 <p className="text-sm font-sans text-gray-600 leading-loose">
                   Cultivées en agriculture biologique certifiée, nos vignes ne connaissent aucun traitement chimique depuis 2004. Les vinifications se font aux levures indigènes avec des doses de soufre minimales. Saluée par la Revue du Vin de France (2 étoiles), notre quête absolue reste la finesse, la fraîcheur et l'élégance.
                 </p>

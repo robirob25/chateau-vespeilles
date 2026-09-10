@@ -2,120 +2,91 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <section id="contact" className="w-full bg-transparent py-16 md:py-32 px-6 md:px-12 border-t border-gray-300/30 relative z-10">
-      <div className="max-w-[100vw] md:max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+    <section id="contact" className="py-24 md:py-32 px-6 md:px-12 bg-white">
+      <div className="max-w-[100vw] md:max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
         
-        {/* Left Side: Booking Form */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.8 }}
-        >
-           <h2 className="text-[2.5rem] md:text-[3.5rem] font-title mb-2 md:mb-4 text-gray-900 leading-none tracking-tight">
-             Visite & <span className="italic text-[#E30613] font-light">Dégustation</span>.
-           </h2>
-           <p className="text-gray-600 font-serif text-sm md:text-base mb-8 md:mb-12 max-w-md">
-             Venez découvrir nos terroirs et déguster nos cuvées au cœur du vignoble. Remplissez ce formulaire pour planifier votre venue.
-           </p>
-
-           <form className="space-y-8 md:space-y-10 max-w-lg" onSubmit={(e) => {
-             e.preventDefault();
-             const formData = new FormData(e.target);
-             const data = Object.fromEntries(formData);
-             const subject = `Demande de visite/dégustation - ${data.name || ''}`;
-             const body = `Nom: ${data.name || ''}\nEmail: ${data.email || ''}\nDate souhaitée: ${data.date || ''}\nNombre de personnes: ${data.people || ''}\n\nMessage:\n${data.message || ''}`;
-             window.location.href = `mailto:info.domainegardies@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-           }}>
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-               <input 
-                 type="text" 
-                 name="name"
-                 aria-label="Prénom et Nom"
-                 placeholder="Prénom & Nom" 
-                 required
-                 className="w-full bg-transparent border-b border-gray-400 focus:border-[#E30613] pb-3 text-sm font-sans text-gray-900 placeholder:text-gray-500 focus:outline-none transition-colors rounded-none"
-               />
-               <input 
-                 type="email" 
-                 name="email"
-                 aria-label="Adresse email"
-                 placeholder="Adresse email" 
-                 required
-                 className="w-full bg-transparent border-b border-gray-400 focus:border-[#E30613] pb-3 text-sm font-sans text-gray-900 placeholder:text-gray-500 focus:outline-none transition-colors rounded-none"
-               />
-             </div>
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-               <div className="relative">
-                 <input 
-                   type="date" 
-                   name="date"
-                   aria-label="Date souhaitée"
-                   required
-                   className="w-full bg-transparent border-b border-gray-400 focus:border-[#E30613] pb-3 text-sm font-sans text-gray-900 focus:outline-none transition-colors rounded-none cursor-pointer appearance-none"
-                 />
-                 <span className="absolute left-0 -top-4 text-[0.6rem] font-bold tracking-widest uppercase text-gray-400">Date souhaitée</span>
-               </div>
-               <div className="relative">
-                 <select 
-                   name="people"
-                   defaultValue=""
-                   required
-                   aria-label="Nombre de personnes"
-                   className="w-full bg-transparent border-b border-gray-400 focus:border-[#E30613] pb-3 text-sm font-sans text-gray-900 focus:outline-none transition-colors rounded-none cursor-pointer appearance-none"
-                 >
-                   <option value="" disabled hidden>Nombre de personnes</option>
-                   <option value="1-2" className="text-black">1 à 2 personnes</option>
-                   <option value="3-5" className="text-black">3 à 5 personnes</option>
-                   <option value="6+" className="text-black">6 personnes ou plus</option>
-                 </select>
-                 <span className="absolute right-0 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400 text-xs">▼</span>
-               </div>
-             </div>
-             <textarea 
-               name="message"
-               aria-label="Votre message"
-               placeholder="Votre message ou demande particulière..." 
-               rows="3" 
-               className="w-full bg-transparent border-b border-gray-400 focus:border-[#E30613] pb-3 text-sm font-sans text-gray-900 placeholder:text-gray-500 focus:outline-none transition-colors rounded-none resize-none"
-             ></textarea>
-             
-             <button 
-               type="submit" 
-               className="inline-flex items-center justify-center px-10 py-4 rounded-full border border-gray-900 text-gray-900 hover:bg-[#E30613] hover:border-[#E30613] hover:text-white transition-all duration-300 text-[0.65rem] font-sans tracking-[0.2em] uppercase font-bold mt-4"
-             >
-               Envoyer la demande
-             </button>
-           </form>
-        </motion.div>
-
-        {/* Right Side: Contact Info */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex flex-col lg:items-end justify-center space-y-12 text-sm font-sans text-gray-600 backdrop-blur-sm bg-white/20 p-8 md:p-12 lg:p-16 rounded-3xl border border-white/30 h-fit"
-        >
-          <div className="text-left lg:text-right w-full">
-            <h3 className="font-bold text-gray-900 uppercase tracking-[0.2em] text-[0.65rem] mb-4 border-b border-gray-300/30 pb-3 lg:border-b-0 lg:pb-0">Où nous trouver</h3>
-            <p className="font-serif text-xl italic text-gray-700 leading-relaxed">
-              Domaine Gardiés<br/>
-              Chemin de Montpins<br/>
-              66600 Espira-de-L'Agly, France
+        {/* Left Column: Info & Exact Content */}
+        <div className="flex-1 space-y-12 w-full">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl md:text-5xl font-title leading-tight text-gray-900 mb-4">
+              Contactez <br/>
+              <span className="italic font-light text-vespeille_red">le Domaine</span>
+            </h2>
+            <p className="text-gray-600 font-serif md:text-lg mb-8 max-w-md">
+              Contactez notre domaine viticole et oléicole pour organiser des dégustations et des événements à Salses-le-Château.
             </p>
-          </div>
-          <div className="text-left lg:text-right w-full">
-            <h3 className="font-bold text-gray-900 uppercase tracking-[0.2em] text-[0.65rem] mb-4 border-b border-gray-300/30 pb-3 lg:border-b-0 lg:pb-0">Contact direct</h3>
-            <a href="mailto:info.domainegardies@gmail.com" className="block font-serif text-xl italic text-gray-700 hover:text-[#E30613] transition-colors leading-relaxed">
-              info.domainegardies@gmail.com
-            </a>
-            <a href="tel:+33468646116" className="block font-serif text-xl italic text-gray-700 hover:text-[#E30613] transition-colors leading-relaxed mt-2">
-              +33 (0)4 68 64 61 16
-            </a>
-          </div>
-        </motion.div>
+          </motion.div>
 
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="space-y-8"
+          >
+            {/* Coordonnées */}
+            <div>
+              <h3 className="text-sm font-sans tracking-widest uppercase font-bold text-gray-400 mb-4">Coordonnées</h3>
+              <div className="space-y-4 text-gray-900 font-serif">
+                <p>
+                  <strong className="font-sans text-xs uppercase tracking-wider text-vespeille_red block mb-1">Adresse</strong>
+                  Domaine de Vespeille, Mas Vespeille, <br/>
+                  66600 Salses-le-Château, France
+                </p>
+                <p>
+                  <strong className="font-sans text-xs uppercase tracking-wider text-vespeille_red block mb-1">Téléphone</strong>
+                  +33 6 18 34 09 89<br/>
+                  +33 6 15 24 47 85
+                </p>
+              </div>
+            </div>
+
+            {/* Horaires */}
+            <div>
+              <h3 className="text-sm font-sans tracking-widest uppercase font-bold text-gray-400 mb-4">Horaires d'accueil au domaine</h3>
+              <div className="space-y-2 text-gray-900 font-serif">
+                <p><span className="font-bold">Du Lundi au Samedi :</span> 09h00 – 12h30 & 15h00 – 18h30</p>
+                <p><span className="font-bold">Le Dimanche :</span> 09h00 – 12h30</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Right Column: Simple Form */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="flex-1 w-full bg-[#F9F6F0] p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100"
+        >
+          <form className="flex flex-col gap-6" onSubmit={(e) => e.preventDefault()}>
+            <div className="flex flex-col gap-2">
+              <label htmlFor="name" className="text-xs uppercase tracking-widest font-bold text-gray-500">Nom</label>
+              <input type="text" id="name" className="bg-white border-b border-gray-300 px-0 py-3 text-gray-900 focus:outline-none focus:border-vespeille_red transition-colors font-serif" placeholder="Votre nom" />
+            </div>
+            
+            <div className="flex flex-col gap-2">
+              <label htmlFor="email" className="text-xs uppercase tracking-widest font-bold text-gray-500">Email</label>
+              <input type="email" id="email" className="bg-white border-b border-gray-300 px-0 py-3 text-gray-900 focus:outline-none focus:border-vespeille_red transition-colors font-serif" placeholder="votre@email.com" />
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label htmlFor="message" className="text-xs uppercase tracking-widest font-bold text-gray-500">Message</label>
+              <textarea id="message" rows="4" className="bg-white border-b border-gray-300 px-0 py-3 text-gray-900 focus:outline-none focus:border-vespeille_red transition-colors font-serif resize-none" placeholder="Comment pouvons-nous vous aider ?"></textarea>
+            </div>
+
+            <button type="submit" className="mt-4 bg-vespeille_red text-white px-8 py-4 uppercase tracking-widest text-xs font-bold hover:bg-gray-900 transition-colors self-start rounded-full">
+              Envoyer le message
+            </button>
+          </form>
+        </motion.div>
+        
       </div>
     </section>
   );
