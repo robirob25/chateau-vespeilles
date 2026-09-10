@@ -56,7 +56,7 @@ export default function VinsEtHuiles() {
         >
           <div className="relative w-full rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="./images/12_vins_20et_20huiles_20d_olives.jpg" 
+              src={import.meta.env.BASE_URL + "images/12_vins_20et_20huiles_20d_olives.jpg"} 
               alt="Bouteilles de vins et huile d'olive du Château Vespeille" 
               className="w-full h-auto object-cover"
             />

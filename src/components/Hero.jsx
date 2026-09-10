@@ -60,7 +60,7 @@ export default function Hero({ isAgeVerified = true }) {
         >
           {/* Using the beautiful vineyard landscape image */}
           <img 
-            src="./images/14_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_204.png" 
+            src={import.meta.env.BASE_URL + "images/14_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_204.png"} 
             alt="Vignoble du Château Vespeille Les Pins" 
             className="w-full h-full object-cover object-center"
           />

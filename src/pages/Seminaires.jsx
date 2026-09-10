@@ -6,9 +6,9 @@ export default function Seminaires() {
   const galleryY = useTransform(scrollY, [0, 2000], [0, -100]);
 
   const images = [
-    "/images/14_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_204.png",
-    "/images/15_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_205.png",
-    "/images/16_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_206.png"
+    import.meta.env.BASE_URL + "images/14_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_204.png",
+    import.meta.env.BASE_URL + "images/15_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_205.png",
+    import.meta.env.BASE_URL + "images/16_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_206.png"
   ];
 
   return (

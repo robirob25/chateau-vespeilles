@@ -16,11 +16,11 @@ export default function Vins() {
       elevage: "Sur lies fines en cuve à chapeau flottant en fibre pendant environ 3 mois.",
       degustation: "Un nez fruité tirant sur la grenadine. En bouche, une bonne fraicheur soutenue par une bonne acidité.",
       accords: "A déguster à température comprise entre 8 et 10°C, en apéritif avec un plateau de charcuterie, vos salades vertes ou composées. Pour accompagner vos grillades mais aussi pour vous rafraichir durant une partie de pétanque.",
-      image: "/images/wine_rose.png",
+      image: import.meta.env.BASE_URL + "images/wine_rose.png",
       imageStyle: "scale-[1.8] translate-y-12 object-contain mix-blend-multiply contrast-125 brightness-110",
       ambiance_images: [
-        "/images/rose_ambiance_1.jpg",
-        "/images/rose_ambiance_2.jpg"
+        import.meta.env.BASE_URL + "images/rose_ambiance_1.jpg",
+        import.meta.env.BASE_URL + "images/rose_ambiance_2.jpg"
       ],
       color: "text-rose-500",
       theme: "bg-rose-50"
@@ -39,11 +39,11 @@ export default function Vins() {
       elevage: "Sur lies fines en cuve à chapeau flottant en fibre pendant environ 6 mois.",
       degustation: "Un nez fruité, exotique et agréable. En bouche, une finesse aromatique et un bouquet de fraîcheur suivie d'une légère sucrosité brève laissant place à une finale acidulée.",
       accords: "A déguster à température comprise entre 8 et 10°C, en apéritif pour accompagner un plateau de charcuterie, des toast au frais gras, une volaille avec une sauce aux girolles mais aussi une belle assiette de fromage et pour finir sur un dessert tel que des crepes, croquants, rousquilles et des délices chocolatés. Ce vin est le bijoux le plus polyvalent de notre gamme.",
-      image: "/images/wine_art.png",
+      image: import.meta.env.BASE_URL + "images/wine_art.png",
       imageStyle: "scale-[2.5] object-contain mix-blend-multiply",
       ambiance_images: [
-        "/images/white_ambiance_1.jpg",
-        "/images/raisins_terroir.jpg"
+        import.meta.env.BASE_URL + "images/white_ambiance_1.jpg",
+        import.meta.env.BASE_URL + "images/raisins_terroir.jpg"
       ],
       color: "text-amber-500",
       theme: "bg-amber-50"
@@ -62,11 +62,11 @@ export default function Vins() {
       elevage: "Sur lies fines en cuve à chapeau flottant en fibre pendant environ 8 mois.",
       degustation: "Un nez fruité et intense. En bouche, aromes de fruits noirs bien mûrs accompagné de tanins soyeux. Un assemblage optimal entre le caractère de la syrah et la douceur du grenache noir mur à souhait.",
       accords: "A déguster à température comprise entre 15 et 18°C, pour accompagner un plateau de charcuterie, a partager autour d'une grillade ou avec un poulet roti et ses petites patates. Vin traditionnel du Roussillon.",
-      image: "/images/wine_gentleman.png",
+      image: import.meta.env.BASE_URL + "images/wine_gentleman.png",
       imageStyle: "scale-[1.15] object-contain mix-blend-multiply",
       ambiance_images: [
-        "/images/red_ambiance_1.jpg",
-        "/images/red_ambiance_2.jpg"
+        import.meta.env.BASE_URL + "images/red_ambiance_1.jpg",
+        import.meta.env.BASE_URL + "images/red_ambiance_2.jpg"
       ],
       color: "text-red-900",
       theme: "bg-red-50"
@@ -85,11 +85,11 @@ export default function Vins() {
       elevage: "Sur lies fines en cuve à chapeau flottant pendant 3 mois.",
       degustation: "Le secret pour des Muscajitos exceptionnels.",
       accords: "A déguster à température comprise entre 8 et 10°C, en apéritif ou dessert avec un gateau au chocolat, un sorbet a l'abricot.",
-      image: "/images/wine_muscat.png",
+      image: import.meta.env.BASE_URL + "images/wine_muscat.png",
       imageStyle: "scale-[2.5] object-contain mix-blend-multiply",
       ambiance_images: [
-        "/images/sweet_ambiance_1.jpg",
-        "/images/luxury_wine.jpg"
+        import.meta.env.BASE_URL + "images/sweet_ambiance_1.jpg",
+        import.meta.env.BASE_URL + "images/luxury_wine.jpg"
       ],
       color: "text-amber-600",
       theme: "bg-amber-100"
@@ -108,11 +108,11 @@ export default function Vins() {
       elevage: "Sur lies fines en cuve inox en milieu oxydatif pendant 26 ans.",
       degustation: "Un nez aux aromes de noix. En bouche la noix se confirme ainsi que des notes ranciotées et de figues.",
       accords: "A déguster à température comprise entre 15 et 18°C, en apéritif ou digestif mais là où la cuvée Prestige fait des merveilles cela reste en dessert avec un gateau de crêpes, une glace rhum raisin ou des canelés avec ou sans coque au chocolat noir. Ce vin reste un bijoux rare issu d'un savoir faire unique.",
-      image: "/images/wine_prestige.png",
+      image: import.meta.env.BASE_URL + "images/wine_prestige.png",
       imageStyle: "scale-[1.25] object-contain mix-blend-multiply",
       ambiance_images: [
-        "/images/prestige_ambiance_1.jpg",
-        "/images/prestige_ambiance_2.jpg"
+        import.meta.env.BASE_URL + "images/prestige_ambiance_1.jpg",
+        import.meta.env.BASE_URL + "images/prestige_ambiance_2.jpg"
       ],
       color: "text-amber-800",
       theme: "bg-amber-50"
@@ -131,11 +131,11 @@ export default function Vins() {
       elevage: "En cuve inox.",
       degustation: "Doux et sec, ce blanc jeune a beaucoup de caractère.",
       accords: "Se marie à merveille avec du poisson, ou en apéritif.",
-      image: "/images/wine_blanc.png",
+      image: import.meta.env.BASE_URL + "images/wine_blanc.png",
       imageStyle: "scale-[2.5] object-contain mix-blend-multiply",
       ambiance_images: [
-        "/images/gallery_new_3.jpg",
-        "/images/vignes_falaise.jpg"
+        import.meta.env.BASE_URL + "images/gallery_new_3.jpg",
+        import.meta.env.BASE_URL + "images/vignes_falaise.jpg"
       ],
       color: "text-gray-400",
       theme: "bg-gray-100"
@@ -154,11 +154,11 @@ export default function Vins() {
       elevage: "En cuve.",
       degustation: "Long en bouche et terminant sa course aux saveurs avec un subtil parfum de vanille.",
       accords: "Idéal pour tout type de repas, avec une préférence tout de même pour les fromages de caractères.",
-      image: "/images/wine_theo.png",
+      image: import.meta.env.BASE_URL + "images/wine_theo.png",
       imageStyle: "scale-[1.15] object-contain mix-blend-multiply",
       ambiance_images: [
-        "/images/gallery_new_1.jpg",
-        "/images/gallery_new_2.jpg"
+        import.meta.env.BASE_URL + "images/gallery_new_1.jpg",
+        import.meta.env.BASE_URL + "images/gallery_new_2.jpg"
       ],
       color: "text-red-900",
       theme: "bg-red-50"
@@ -177,11 +177,11 @@ export default function Vins() {
       elevage: "En cuve inox pour préserver la fraîcheur.",
       degustation: "Une huile d'exception aux arômes d'herbe fraîche et d'artichaut.",
       accords: "Une tranche de pain, un filet d'huile d'olive et un peu de fleur de sel. Idéale pour sublimer vos salades et poissons.",
-      image: "/images/huile_olive.png",
+      image: import.meta.env.BASE_URL + "images/huile_olive.png",
       imageStyle: "scale-[1.8] translate-y-12 object-contain mix-blend-multiply contrast-125 brightness-110",
       ambiance_images: [
-        "/images/olive_oil_1.jpg",
-        "/images/olive_oil_2.jpg"
+        import.meta.env.BASE_URL + "images/olive_oil_1.jpg",
+        import.meta.env.BASE_URL + "images/olive_oil_2.jpg"
       ],
       color: "text-green-700",
       theme: "bg-green-50"
@@ -201,7 +201,7 @@ export default function Vins() {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-title text-gray-900 leading-tight mb-6">
           Les <span className="italic font-light text-vespeille_red">Cuvées</span>
         </h1>
-        <img src="./images/logo_vespeille.png" alt="Château Vespeille les Pins Logo" className="w-48 md:w-56 h-auto object-contain mt-4 animate-[spin_20s_linear_infinite] origin-[48%_59%]" />
+        <img src={import.meta.env.BASE_URL + "images/logo_vespeille.png"} alt="Château Vespeille les Pins Logo" className="w-48 md:w-56 h-auto object-contain mt-4 animate-[spin_20s_linear_infinite] origin-[48%_59%]" />
       </div>
 
       <div ref={collectionRef} className="max-w-[1600px] mx-auto px-6 lg:px-12 mt-12">

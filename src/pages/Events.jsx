@@ -6,9 +6,9 @@ export default function Events() {
   const galleryY = useTransform(scrollY, [0, 2000], [0, -100]);
 
   const images = [
-    "/images/10_Domaine-viticole-salle-de-seminaire-gites-a-Salses-le-Chateau-11.png",
-    "/images/12_vins_20et_20huiles_20d_olives.jpg",
-    "/images/gallery_new_4.jpg"
+    import.meta.env.BASE_URL + "images/10_Domaine-viticole-salle-de-seminaire-gites-a-Salses-le-Chateau-11.png",
+    import.meta.env.BASE_URL + "images/12_vins_20et_20huiles_20d_olives.jpg",
+    import.meta.env.BASE_URL + "images/gallery_new_4.jpg"
   ];
 
   return (

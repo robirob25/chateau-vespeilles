@@ -42,7 +42,7 @@ export default function Seminaires() {
         >
           <div className="relative w-full rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="./images/15_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_205.png" 
+              src={import.meta.env.BASE_URL + "images/15_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_205.png"} 
               alt="Salle de séminaire au Château Vespeille" 
               className="w-full h-auto object-cover"
             />

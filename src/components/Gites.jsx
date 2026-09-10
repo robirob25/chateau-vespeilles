@@ -42,7 +42,7 @@ export default function Gites() {
         >
           <div className="relative w-full rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="./images/16_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_206.png" 
+              src={import.meta.env.BASE_URL + "images/16_Domaine_20viticole_20salle_20de_20seminaire_20gites_20a_20Salses-le-Chateau_206.png"} 
               alt="Gîte au Château Vespeille" 
               className="w-full h-auto object-cover"
             />
